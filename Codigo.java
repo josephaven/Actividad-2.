@@ -1,8 +1,3 @@
-interface Redimensionable {
-    void resize(double factor);
-}
-
-
 abstract class Figure {
     protected int numSides;
 
@@ -69,6 +64,9 @@ class Triangle extends Figure {
     }
 }
 
+interface Redimensionable {
+    void resize(double factor);
+}
 
 public class Main {
     public static void main(String[] args) {
